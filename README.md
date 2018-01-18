@@ -470,9 +470,7 @@ print(match.group(2))
 Just to make this more clear try to follow the image below, here we have 3 groups and three matchings. When we print the matching of a group two none and a matching would be out.
 
 
-
-<br>
-![console](https://i.imgur.com/VObOJ26.png)
+![console](https://i.imgur.com/55rS0Iu.png)
 
 ### 6.2 Matching an IP Address
 Regex is :
@@ -483,8 +481,7 @@ Observer this and you feel see the first group is to be repeated 3 times as {3} 
 Similarly we have the last group, just the dot is removed. Since dot is meta character so backslash is used to provide its literal meaning.
 So the string 252.60.129.255 will be matched
 
-
-![Regex](https://i.imgur.com/b22UFNP.png)
+![Regex](https://i.imgur.com/jwzrmDq.png)
 
 while the string 256.60.129.255 will not be matched
 
@@ -543,8 +540,6 @@ We can run the above substitution command on a sample `test.txt` file.
 ```bash
 My email is patrick.triest@gmail.com
 ```
-
-<br>
 
 Once the command has been run, the email will be redacted from the `test.txt` file.
 
