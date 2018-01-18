@@ -2,6 +2,23 @@
 
 ![Regular Expressions](https://i.imgur.com/KfyCQBI.png)
 
+
+## Contents
+
+- [1. Introduction](#1-introduction)
+- [2. Character Matching](#2-character-matching)
+- [3. Meta Characters](#3-meta-characters)
+- [4. Special Quantifiers](#4-special-quantifiers)
+- [5. Shorthand Character Set](#5-shorthand-character-set)
+- [6. Good Examples](#6---good-examples)
+- [7. Command Line Usage](#7---command-line-usage)
+- [8. Look Around](#8-lookaround)
+- [9. Flags](#9-flags)
+- [10. Substitutions](#10-substitutions)
+- [11. When not to use Regex](#11-when-not-to-use-regex)
+- [12. Cheat Sheets](#12-cheat-sheets-for-regular-expressions)
+
+
 ## 1. Introduction
 
 REGEX mean REGular EXpression which in turn is nothing but sequence of characters. These expressions say for example [0–9] means that the expression should contain numbers.
